@@ -36,7 +36,7 @@ public class Mailton {
 			email.setDebug(true);
 			email.setAuthentication("seu email aqui", "a senha do seu email aqui");// autenticação e senha
 			email.setSSLOnConnect(true);
-			email.setFrom("eduardoeanaempreendedores@gmail.com");//quem esta enviando o email
+			email.setFrom("seu email aqui");//quem esta enviando o email
 			email.setSubject("Assunto testando o email");// assunto
 			email.setMsg("Mensagem testando primeiro envio de email em java");//mensagem
 			email.addTo("email de destino");// pra quem vai o email
