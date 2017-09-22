@@ -6,7 +6,7 @@ public class Enviar {
 		try {
 			
 			EmailJava email = new EmailJava();
-			email.enviarEmail("javaenviaemailteste@gmail.com","Testando email com java","Java so para os fortes","eduardo27_minotauro@hotmail.com");
+			email.enviarEmail("javaenviaemailteste@gmail.com","Testando email com java","Java so para os fortes","email de destino aqui");
 			System.out.println("Email enviado com sucesso!");
 			
 		} catch (Exception e) {

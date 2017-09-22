@@ -24,7 +24,7 @@ public class EmailJava {
 		email.setHostName("smtp.googlemail.com");// smtp padrão do gmail
 		email.setSmtpPort(465);// porta do smtp
 		email.setDebug(true); // para mostrar o debug no console
-		email.setAuthentication("eduardoeanaempreendedores@gmail.com", "cubomagico");// autenticação e senha
+		email.setAuthentication("seu email aqui", "a senha do seu email aqui");// autenticação e senha
 		email.setSSLOnConnect(true);// chave ssl tem que estar verdadeira true
 	}
 	

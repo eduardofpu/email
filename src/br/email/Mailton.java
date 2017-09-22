@@ -34,12 +34,12 @@ public class Mailton {
 			email.setHostName("smtp.googlemail.com");
 			email.setSmtpPort(465);
 			email.setDebug(true);
-			email.setAuthentication("eduardoeanaempreendedores@gmail.com", "cubomagico");// autenticação e senha
+			email.setAuthentication("seu email aqui", "a senha do seu email aqui");// autenticação e senha
 			email.setSSLOnConnect(true);
 			email.setFrom("eduardoeanaempreendedores@gmail.com");//quem esta enviando o email
 			email.setSubject("Assunto testando o email");// assunto
 			email.setMsg("Mensagem testando primeiro envio de email em java");//mensagem
-			email.addTo("eduardo27_minotauro@hotmail.com");// pra quem vai o email
+			email.addTo("email de destino");// pra quem vai o email
 			email.send();
 			
 		}catch(EmailException ex){
